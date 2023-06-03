@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="account_category"
+        app:title="Account">
+
+        <Preference
+            app:key="account"
+            app:title="Account Settings"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="general"
+        app:title="General">
+
+        <SwitchPreferenceCompat
+            app:key="theme"
+            app:title="Dark Theme"
+            app:defaultValue="false"/>
+        <Preference
+            app:key="category"
+            app:summary="add categories"
+            app:title="Category"/>
+        <Preference
+            app:key="downloaded"
+            app:summary="save decks for offline use"
+            app:title="Downloaded Decks"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="help_category"
+        app:title="Help">
+
+        <Preference
+            app:key="help"
+            app:summary="Learn how to use Nerdi"
+            app:title="Help"/>
+
+        <Preference
+            app:key="feedback"
+            app:summary="Report technical issues or suggest new features"
+            app:title="Send feedback"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:key="about_category"
+        app:title="About">
+
+        <Preference
+            app:key="about"
+            app:title="About Us"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
