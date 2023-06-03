@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="Add Deck"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Deck Name:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/deckName"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/edit_text_drawable"
+        android:ems="10"
+        android:hint="enter name"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp" />
+
+
+</LinearLayout>

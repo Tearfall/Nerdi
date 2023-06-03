@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpTwo">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppins"
+        android:text="Go to your account settings, which will be found by clicking the las icon in your bottom navigation bar. there, find Category and click it. This will display a list of your categories, or if you haven't created one, then it will show the word empty. At the top right corner of that page, there will be a plus sign, which you can click and it will ask you for the name of your category. Enter the title of your category, and click Add and viola! You have created your category."/>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpOne">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to make a flashcard?
+once you login to NERDI, you will be directed to its home page, where you will see at the botton center, a floating button with an add icon. Once you click a button, a dialog box will appear, entitled Add Deck. This will ask for your input, and to proceed to the next step, you have to enter the name of your first deck. Once you are done with the name of your deck, click add at the bottom left. This will redirect you to an empty deck, where there will be two textboxes to help ypu get started with your first flashcard."
+        android:textSize="25dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppins"
+        />
+
+</RelativeLayout>

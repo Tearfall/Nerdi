@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpThree">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppins"
+        android:text="Yes, you can download your flashcards for offline use. To download your decks, first, you have to make sure you are connected to the internet or mobile data, then, go to home page and click the deck you want to download. After that, at the bottom of your deck, you will see Download. All you have to do is to click it and wait for a few minutes. To check if you have successfully downloaded it, you can either go to your downloads, which is the second to the right icon of your bottom navigation bar, or turn off your internet and see if you can still access it. If you can see it in your downloads and you can access it without your internet, then you have successfully downloaded it!"/>
+
+</RelativeLayout>

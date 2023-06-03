@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCard">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/tvterm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:fontFamily="@font/roboto"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:text="Term" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvterm"
+        android:hint="Type here..."
+        android:layout_centerHorizontal="true"
+        android:background="@color/gray"
+        android:maxLines="5"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tvdefinition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e1"
+        android:fontFamily="@font/roboto"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp"
+        android:text="Definition" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvdefinition"
+        android:hint="Type here..."
+        android:layout_centerHorizontal="true"
+        android:maxLines="5"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:background="@color/gray"
+        android:padding="15dp"
+        />
+        
+</RelativeLayout>
