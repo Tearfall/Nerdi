@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ri_home_fill"/>
+
+    <item android:id="@+id/mode"
+        android:title="Mode"
+        android:icon="@drawable/ph_cards_fill"/>
+
+    <item android:id="@+id/add"
+        android:title=" "
+        android:enabled="false"/>
+
+    <item android:id="@+id/downloads"
+        android:title="Downloads"
+        android:icon="@drawable/mingcute_folder_download_fill"/>
+
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/bi_person_fill"/>
+</menu>
